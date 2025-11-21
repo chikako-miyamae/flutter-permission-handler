@@ -3,7 +3,7 @@
 // Copyright (c) 2019 The Chromium Authors. All rights reserved.
 //
 
-#import "PermissionManager.h"
+#import "include/permission_handler_apple/PermissionManager.h"
 
 @implementation PermissionManager {
     NSMutableArray <id <PermissionStrategy>> *_strategyInstances;

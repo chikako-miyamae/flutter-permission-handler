@@ -5,7 +5,7 @@
 //  Created by Jan-Derk on 21/05/2021.
 //
 
-#import "AppTrackingTransparencyPermissionStrategy.h"
+#import "include/permission_handler_apple/AppTrackingTransparencyPermissionStrategy.h"
 
 #if PERMISSION_APP_TRACKING_TRANSPARENCY
 

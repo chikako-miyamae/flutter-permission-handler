@@ -5,7 +5,7 @@
 //  Created by Neal Soni on 2021/6/8.
 //
 
-#import "CriticalAlertsPermissionStrategy.h"
+#import "include/permission_handler_apple/CriticalAlertsPermissionStrategy.h"
 
 #if PERMISSION_CRITICAL_ALERTS
 

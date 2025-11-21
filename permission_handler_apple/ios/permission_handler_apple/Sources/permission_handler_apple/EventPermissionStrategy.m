@@ -3,7 +3,7 @@
 // Copyright (c) 2019 The Chromium Authors. All rights reserved.
 //
 
-#import "EventPermissionStrategy.h"
+#import "include/permission_handler_apple/EventPermissionStrategy.h"
 
 #if PERMISSION_EVENTS | PERMISSION_EVENTS_FULL_ACCESS | PERMISSION_REMINDERS
 

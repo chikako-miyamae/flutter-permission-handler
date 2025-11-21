@@ -5,7 +5,7 @@
 //  Created by Tong on 2019/10/21.
 //
 
-#import "NotificationPermissionStrategy.h"
+#import "include/permission_handler_apple/NotificationPermissionStrategy.h"
 
 #if PERMISSION_NOTIFICATIONS
 

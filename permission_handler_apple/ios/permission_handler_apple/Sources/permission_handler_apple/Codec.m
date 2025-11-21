@@ -3,7 +3,7 @@
 // Copyright (c) 2019 The Chromium Authors. All rights reserved.
 //
 
-#import "Codec.h"
+#import "include/permission_handler_apple/Codec.h"
 
 @implementation Codec
 + (PermissionGroup)decodePermissionGroupFrom:(NSNumber *)event {

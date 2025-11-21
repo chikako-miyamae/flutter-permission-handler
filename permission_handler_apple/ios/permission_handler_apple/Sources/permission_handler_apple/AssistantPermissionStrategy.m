@@ -5,7 +5,7 @@
 //  Created by Baptiste Dupuch (dupuchba) on Tue Sep  5 08:50:04 2023
 //
 
-#import "AssistantPermissionStrategy.h"
+#import "include/permission_handler_apple/AssistantPermissionStrategy.h"
 
 #if PERMISSION_ASSISTANT
 

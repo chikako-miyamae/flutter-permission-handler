@@ -5,7 +5,7 @@
 //  Created by Sebastian Roth on 28/09/2023.
 //
 
-#import "BackgroundRefreshStrategy.h"
+#import "include/permission_handler_apple/BackgroundRefreshStrategy.h"
 
 @implementation BackgroundRefreshStrategy
 

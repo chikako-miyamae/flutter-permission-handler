@@ -3,7 +3,7 @@
 // Copyright (c) 2019 The Chromium Authors. All rights reserved.
 //
 
-#import "MediaLibraryPermissionStrategy.h"
+#import "include/permission_handler_apple/MediaLibraryPermissionStrategy.h"
 
 #if PERMISSION_MEDIA_LIBRARY
 
