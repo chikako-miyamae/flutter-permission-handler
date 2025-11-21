@@ -6,6 +6,7 @@
 //
 
 #import "include/permission_handler_apple/BackgroundRefreshStrategy.h"
+#import <UIKit/UIKit.h>
 
 @implementation BackgroundRefreshStrategy
 
