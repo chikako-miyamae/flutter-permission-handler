@@ -20,6 +20,9 @@ let package = Package(
                 .headerSearchPath("include/permission_handler_apple"),
                 .define("PERMISSION_EVENTS", to: "1"),
                 .define("PERMISSION_EVENTS_FULL_ACCESS", to: "1"),
+                .define("PERMISSION_LOCATION", to: "1"),
+                .define("PERMISSION_MICROPHONE", to: "1"),
+                .define("PERMISSION_SPEECH_RECOGNIZER", to: "1"),
             ]
         )
     ]
