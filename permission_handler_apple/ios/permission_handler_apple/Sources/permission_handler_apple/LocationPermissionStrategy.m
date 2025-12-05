@@ -4,6 +4,7 @@
 //
 
 #import "include/permission_handler_apple/LocationPermissionStrategy.h"
+#import <UIKit/UIKit.h>
 
 #if PERMISSION_LOCATION || PERMISSION_LOCATION_WHENINUSE || PERMISSION_LOCATION_ALWAYS
 
