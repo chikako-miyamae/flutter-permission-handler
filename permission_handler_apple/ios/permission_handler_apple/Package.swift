@@ -17,7 +17,9 @@ let package = Package(
                 .process("PrivacyInfo.xcprivacy"),
             ],
             cSettings: [
-                .headerSearchPath("include/permission_handler_apple")
+                .headerSearchPath("include/permission_handler_apple"),
+                .define("PERMISSION_EVENTS", to: "1"),
+                .define("PERMISSION_EVENTS_FULL_ACCESS", to: "1"),
             ]
         )
     ]
