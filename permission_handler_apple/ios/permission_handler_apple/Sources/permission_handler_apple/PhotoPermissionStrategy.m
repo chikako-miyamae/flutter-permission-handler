@@ -3,7 +3,7 @@
 // Copyright (c) 2019 The Chromium Authors. All rights reserved.
 //
 
-#import "PhotoPermissionStrategy.h"
+#import "include/permission_handler_apple/PhotoPermissionStrategy.h"
 
 #if PERMISSION_PHOTOS
 

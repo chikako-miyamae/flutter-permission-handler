@@ -1,0 +1,29 @@
+// swift-tools-version: 5.9
+import PackageDescription
+
+let package = Package(
+    name: "permission_handler_apple",
+    platforms: [
+        .iOS("16.0"),
+    ],
+    products: [
+        .library(name: "permission-handler-apple", targets: ["permission_handler_apple"])
+    ],
+    dependencies: [],
+    targets: [
+        .target(
+            name: "permission_handler_apple",
+            resources: [
+                .process("PrivacyInfo.xcprivacy"),
+            ],
+            cSettings: [
+                .headerSearchPath("include/permission_handler_apple"),
+                .define("PERMISSION_EVENTS", to: "1"),
+                .define("PERMISSION_EVENTS_FULL_ACCESS", to: "1"),
+                .define("PERMISSION_LOCATION", to: "1"),
+                .define("PERMISSION_MICROPHONE", to: "1"),
+                .define("PERMISSION_SPEECH_RECOGNIZER", to: "1"),
+            ]
+        )
+    ]
+)

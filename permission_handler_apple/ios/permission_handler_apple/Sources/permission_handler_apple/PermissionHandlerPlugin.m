@@ -1,4 +1,4 @@
-#import "PermissionHandlerPlugin.h"
+#import "include/permission_handler_apple/PermissionHandlerPlugin.h"
 
 
 @implementation PermissionHandlerPlugin {

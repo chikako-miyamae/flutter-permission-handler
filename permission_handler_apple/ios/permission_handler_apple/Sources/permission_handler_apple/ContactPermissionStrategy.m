@@ -3,7 +3,7 @@
 // Copyright (c) 2019 The Chromium Authors. All rights reserved.
 //
 
-#import "ContactPermissionStrategy.h"
+#import "include/permission_handler_apple/ContactPermissionStrategy.h"
 
 #if PERMISSION_CONTACTS
 

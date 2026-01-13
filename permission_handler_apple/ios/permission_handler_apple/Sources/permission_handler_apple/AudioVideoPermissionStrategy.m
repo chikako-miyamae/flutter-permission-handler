@@ -3,7 +3,7 @@
 // Copyright (c) 2019 The Chromium Authors. All rights reserved.
 //
 
-#import "AudioVideoPermissionStrategy.h"
+#import "include/permission_handler_apple/AudioVideoPermissionStrategy.h"
 
 #if PERMISSION_CAMERA | PERMISSION_MICROPHONE
 

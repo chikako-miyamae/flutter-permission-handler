@@ -5,7 +5,7 @@
 //  Created by Frank Gregor on 06.11.19.
 //
 
-#import "StoragePermissionStrategy.h"
+#import "include/permission_handler_apple/StoragePermissionStrategy.h"
 
 @implementation StoragePermissionStrategy
 

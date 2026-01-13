@@ -5,7 +5,7 @@
 //  Created by Rene Floor on 12/03/2021.
 //
 
-#import "BluetoothPermissionStrategy.h"
+#import "include/permission_handler_apple/BluetoothPermissionStrategy.h"
 
 #if PERMISSION_BLUETOOTH
 

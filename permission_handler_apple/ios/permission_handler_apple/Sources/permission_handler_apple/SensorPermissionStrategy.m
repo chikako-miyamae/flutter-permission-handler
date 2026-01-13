@@ -3,7 +3,7 @@
 // Copyright (c) 2019 The Chromium Authors. All rights reserved.
 //
 
-#import "SensorPermissionStrategy.h"
+#import "include/permission_handler_apple/SensorPermissionStrategy.h"
 
 #if PERMISSION_SENSORS
 

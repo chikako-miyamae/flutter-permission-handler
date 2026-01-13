@@ -3,7 +3,7 @@
 // Copyright (c) 2019 The Chromium Authors. All rights reserved.
 //
 
-#import "SpeechPermissionStrategy.h"
+#import "include/permission_handler_apple/SpeechPermissionStrategy.h"
 
 #if PERMISSION_SPEECH_RECOGNIZER
 
